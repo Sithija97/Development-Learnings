@@ -24,8 +24,8 @@ export class Todo {
   dueDate: Date;
 
   @CreateDateColumn()
-  createdDate: Date;
+  createdAt: Date;
 
   @UpdateDateColumn()
-  updatedDate: Date;
+  updatedAt: Date;
 }
